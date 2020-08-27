@@ -20,6 +20,8 @@ public class actionClassDemo {
 		a.moveToElement(input).click().keyDown(Keys.SHIFT).sendKeys("world").doubleClick().build().perform();
 		//move mouse to specific elements and context-click help to perform right click.
 		a.moveToElement(move).contextClick().build().perform();
+		
+		
 
 	}
 
